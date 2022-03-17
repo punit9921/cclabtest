@@ -90,7 +90,7 @@
 				<tr><td>Monthly Salary: </td><td> <%=rs2.getString(2) %> </td></tr>
 				<tr><td>Bonus: </td><td> <%=rs2.getString(3) %> </td></tr>
 				<tr><td>Annual Salary: </td><td> <%= annual%> </td></tr>
-				<tr><td>Total Salary: </td><td> <%= salary%> %> </td></tr>
+				<tr><td>Total Salary: </td><td> <%= salary %> </td></tr>
 				</Table>
 			
 		<%} }
