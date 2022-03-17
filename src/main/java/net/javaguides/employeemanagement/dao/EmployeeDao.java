@@ -47,10 +47,10 @@ public class EmployeeDao {
            	
                 // Step 2:Create a statement using connection object
                 PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL1)) {
-             
-                preparedStatement.setString(1, employee.getjobrole());
-                preparedStatement.setInt(2, employee.getsalary());
-                preparedStatement.setInt(3, employee.getbonus());
+        	 preparedStatement.setString(1, employee.getUsername());
+                preparedStatement.setString(2, employee.getjobrole());
+                preparedStatement.setInt(3, employee.getsalary());
+                preparedStatement.setInt(4, employee.getbonus());
                 
 
                 System.out.println(preparedStatement);
